@@ -171,6 +171,18 @@
   .sp.approved{background:#e3f5ec;color:var(--good)}
   .sp.scheduled{background:#eaf3ff;color:#1663b8}
   .sp.live{background:#e8f4ee;color:var(--good)}
+  tr.typerow td{background:#eef1f6 !important;padding:7px 10px;border-bottom:1px solid var(--line)}
+  tr.typerow .tc{font-family:var(--mono);font-size:10px;color:var(--muted);margin-left:10px;
+                 letter-spacing:.5px;text-transform:uppercase}
+  .pos{display:inline-block;font-family:var(--mono);font-size:11.5px;font-weight:700;
+       padding:2px 9px;border-radius:20px;min-width:34px;text-align:center}
+  .pos.top3{background:#e3f5ec;color:var(--good)}
+  .pos.p1{background:#eaf7fe;color:#0a6a93}
+  .pos.p2{background:#fff3da;color:#a96a00}
+  .pos.deep{background:#fdeaea;color:#b3261e}
+  .pos.none{background:#eef1f6;color:#9aa3b2;font-size:10px;font-weight:400}
+  .mv{font-family:var(--mono);font-size:9.5px;font-weight:700;margin-left:6px}
+  .mv.up{color:var(--good)} .mv.down{color:#b3261e}
   .tick{width:18px;height:18px;accent-color:var(--good);cursor:pointer}
   .tick:disabled{cursor:not-allowed;opacity:.35}
   select,textarea{font-family:var(--sans);background:#fff;color:var(--ink);border:1px solid var(--line);
@@ -238,10 +250,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
-const CFG = {"sbUrl": "https://tjgrtrazyepvbcmmdhet.supabase.co", "sbKey": "sb_publishable_FeX9cGqiIHCfAlWA_yTJ9g_u_TM48T8", "slug": "clarkies-plumbing", "clientName": "Clarkies Plumbing", "tabs": [{"key": "strategy", "num": "01", "title": "Strategy", "short": "Strategy", "audience": "both", "enabled": true, "intro": "Where Clarkies stands today, the opportunity in front of you, and exactly what we deliver each month.", "html": "<h3 class=\"subhead\"><span class=\"sn\">1.1</span>You're not invisible. You're half-visible.</h3>\n<p>We tested how the five major AI search engines answer plumbing questions across Newcastle. You appear on two of them, on one question out of twenty-five. Gemini names you for emergency plumbing. Claude partly recognises you for CCTV drains. ChatGPT, Perplexity and Grok don't mention you at all.</p>\n<div class=\"statrow\"><div class=\"stat\"><div class=\"big\">2 / 5</div><div class=\"lbl\">AI engines that name you</div></div><div class=\"stat\"><div class=\"big\">1 / 25</div><div class=\"lbl\">Questions you appear on</div></div><div class=\"stat\"><div class=\"big\">$9.54</div><div class=\"lbl\">What a click on 'emergency plumber newcastle' costs in Google Ads</div></div><div class=\"stat\"><div class=\"big\">$10.69</div><div class=\"lbl\">Same, for 'blocked drains newcastle'</div></div></div>\n<p>That's a foothold, and it's more than most plumbers we assess start with. The job is finishing what's begun, not building from nothing.</p>\n<h3 class=\"subhead\"><span class=\"sn\">1.2</span>The demand is real, and it's expensive to buy</h3>\n<p>Those last two numbers are the important ones. Advertisers pay nine to eleven dollars for a single click on the terms you should own organically. That is the market telling you what an emergency plumbing enquiry in Newcastle is worth. Every one of those you earn through search instead of paying for is money you keep.</p>\n<table class=\"mini\"><thead><tr><th>Term</th><th>Searches / month</th><th>Difficulty</th><th>Google Ads CPC</th></tr></thead><tbody><tr><td>emergency plumber newcastle</td><td>260</td><td>18</td><td>$9.54</td></tr><tr><td>blocked drains newcastle</td><td>170</td><td>8</td><td>$10.69</td></tr><tr><td>24 hour plumber</td><td>590</td><td>11</td><td>$6.45</td></tr><tr><td>burst pipe repair</td><td>320</td><td>5</td><td>$6.91</td></tr><tr><td>gas fitter newcastle</td><td>70</td><td>3</td><td>$9.77</td></tr><tr><td>plumber mayfield</td><td>50</td><td>11</td><td>$12.89</td></tr></tbody></table>\n<p>Difficulty is scored out of 100. Almost everything here sits under 20, which for a local trade is very winnable. Nothing on this list is out of reach.</p>\n<h3 class=\"subhead\"><span class=\"sn\">1.3</span>Where you're completely dark</h3>\n<ul><li>Burst pipe repair \u2014 no AI engine mentions you, and burst pipe repair alone is 320 searches a month</li><li>Hot water installation \u2014 nothing, on any engine</li><li>Suburb-level questions \u2014 you're absent almost everywhere outside the word 'Newcastle'</li><li>Competitors already visible: Newcastle Emergency Plumbing (3 engines, leading with 'arrives in 30 minutes'), Jet Blaster Man, Plumbers Express</li></ul>\n<div class=\"callout\">Newcastle Emergency Plumbing wins on a promise, not on being better plumbers. 'Arrives in 30 minutes' is a specific, checkable claim. That is what the engines and the customers latch onto. We need one of those for you.</div>\n<h3 class=\"subhead\"><span class=\"sn\">1.4</span>The honest part: your suburbs are quiet</h3>\n<p>We checked search volume for every suburb you named. Only Stockton, Mayfield, Merewether and Islington register at all, and even those are small. Adamstown, Adamstown Heights, Fern Bay, Mayfield West and Wickham show no recorded search volume for plumbing terms.</p>\n<p>We're still building those pages, and we want to be straight with you about why. They earn their place by getting you into the Google map pack when someone nearby searches, and by proving to Google and the AI engines that you genuinely service those areas. They are not going to bring traffic on their own. Anyone who tells you otherwise is selling you page count.</p>\n<h3 class=\"subhead\"><span class=\"sn\">1.5</span>The plan, three months</h3>\n<table class=\"mini\"><thead><tr><th>Month</th><th>Pillar</th><th>Why this order</th></tr></thead><tbody><tr><td>September</td><td>Emergency plumbing</td><td>Your first priority and your highest-intent work. It's also where you already have a toehold on Gemini, so we're widening a crack rather than drilling a new one.</td></tr><tr><td>October</td><td>Blocked drains, dig-ups, CCTV</td><td>Where Claude already partly recognises you. Strong commercial value at $10.69 a click and low difficulty.</td></tr><tr><td>November</td><td>Hot water, gas, maintenance</td><td>Currently a complete blank across all five engines, and hot water demand climbs into summer.</td></tr></tbody></table>\n<h3 class=\"subhead\"><span class=\"sn\">1.6</span>What you get each month</h3>\n<ul class=\"spec\"><li>11 pages \u2014 a mix of suburb pages, service pages and articles</li><li>3 Google Business Profile posts</li><li>AI search visibility tracked and reported monthly</li><li>GBP optimisation, citation clean-up, basic link building</li><li>Website audit and the fixes that follow it</li><li>A video walkthrough and a catch-up call</li></ul>\n<h3 class=\"subhead\"><span class=\"sn\">1.7</span>How approval works</h3>\n<p>Two stages, and nothing goes live without you seeing it twice. First you approve the topics on the content calendar \u2014 that's the tick box on the next tab. Then you approve the finished copy before it publishes.</p>\n<div class=\"answer\">You only need to do one thing right now: open the content calendar and tick the items you're happy for us to write. If something looks wrong for your business, leave a note on that row instead and we'll change it.</div>"}, {"key": "audit", "num": "02", "title": "Technical Audit", "short": "Technical Audit", "audience": "both", "enabled": true, "intro": "Site health, what's holding rankings back, and the order we fix it in.", "html": "<h3 class=\"subhead\"><span class=\"sn\">A.1</span>Not started yet</h3>\n<p>The website audit is part of your plan and hasn't been run yet. It's scheduled before September content goes live, because there is no point pointing new pages at a site with technical problems underneath them.</p>\n<p>Once it's done, this tab will list what we found, what we're fixing, what needs a decision from you, and a 90-day action plan in priority order.</p>"}, {"key": "gbp", "num": "03", "title": "GBP Optimisation", "short": "GBP Optimisation", "audience": "both", "enabled": true, "intro": "Your Google Business Profile \u2014 the fastest-moving lever you have.", "html": "<h3 class=\"subhead\"><span class=\"sn\">G.1</span>Why this matters more than your website right now</h3>\n<p>For a 24/7 emergency trade, the map pack is where the phone calls come from. Someone with water coming through the ceiling is not reading a blog. They tap the first profile with reviews and a phone number. Your profile is doing that job today, and it's the quickest thing to improve.</p>\n<h3 class=\"subhead\"><span class=\"sn\">G.2</span>The monthly rhythm</h3>\n<ul class=\"spec\"><li>3 Google Business Profile posts a month, scheduled on the content calendar</li><li>Profile optimisation \u2014 services, service areas, hours, attributes</li><li>Citation building and clean-up so your name, address and phone match everywhere</li><li>Review prompts after completed jobs</li></ul>\n<h3 class=\"subhead\"><span class=\"sn\">G.3</span>Service areas we're targeting</h3>\n<p>Stockton, Fern Bay, Mayfield, Mayfield West, Merewether, Adamstown, Adamstown Heights, Wickham, Islington and Newcastle \u2014 the areas you named on our onboarding call.</p>\n<div class=\"callout\">Stockton is your strongest local signal and your least contested. You're on the right side of the water when most Newcastle plumbers aren't. That's a genuine advantage and we're going to lean on it.</div>"}, {"key": "calendar-seo", "num": "04", "title": "Content Calendar (SEO)", "short": "Content Calendar", "audience": "client", "enabled": true, "intro": "", "html": ""}, {"key": "briefs", "num": "06", "title": "Monthly Briefs", "short": "Monthly Briefs", "audience": "internal", "enabled": true, "intro": "Writer-ready briefs, one sub-tab per month. This is the source of truth for production.", "remote": true}, {"key": "team-brief", "num": "07", "title": "Team Brief", "short": "Team Brief", "audience": "internal", "enabled": true, "intro": "Read this before you write a single word for Clarkies.", "remote": true}, {"key": "progress", "num": "08", "title": "Progress Tracker", "short": "Progress Tracker", "audience": "internal", "enabled": true, "intro": "", "html": ""}, {"key": "research", "num": "09", "title": "Research", "short": "Research", "audience": "internal", "enabled": true, "intro": "The keyword and visibility data this whole plan is built on.", "remote": true}], "approvalTarget": "calendar-seo"};
+const CFG = {"sbUrl": "https://tjgrtrazyepvbcmmdhet.supabase.co", "sbKey": "sb_publishable_FeX9cGqiIHCfAlWA_yTJ9g_u_TM48T8", "slug": "clarkies-plumbing", "clientName": "Clarkies Plumbing", "tabs": [{"key": "strategy", "num": "01", "title": "Strategy", "short": "Strategy", "audience": "both", "enabled": true, "intro": "Where Clarkies stands today, the opportunity in front of you, and exactly what we deliver each month.", "html": "<h3 class=\"subhead\"><span class=\"sn\">1.1</span>You're not invisible. You're half-visible.</h3>\n<p>We tested how the five major AI search engines answer plumbing questions across Newcastle. You appear on two of them, on one question out of twenty-five. Gemini names you for emergency plumbing. Claude partly recognises you for CCTV drains. ChatGPT, Perplexity and Grok don't mention you at all.</p>\n<div class=\"statrow\"><div class=\"stat\"><div class=\"big\">2 / 5</div><div class=\"lbl\">AI engines that name you</div></div><div class=\"stat\"><div class=\"big\">1 / 25</div><div class=\"lbl\">Questions you appear on</div></div><div class=\"stat\"><div class=\"big\">$9.54</div><div class=\"lbl\">What a click on 'emergency plumber newcastle' costs in Google Ads</div></div><div class=\"stat\"><div class=\"big\">$10.69</div><div class=\"lbl\">Same, for 'blocked drains newcastle'</div></div></div>\n<p>That's a foothold, and it's more than most plumbers we assess start with. The job is finishing what's begun, not building from nothing.</p>\n<h3 class=\"subhead\"><span class=\"sn\">1.2</span>The demand is real, and it's expensive to buy</h3>\n<p>Those last two numbers are the important ones. Advertisers pay nine to eleven dollars for a single click on the terms you should own organically. That is the market telling you what an emergency plumbing enquiry in Newcastle is worth. Every one of those you earn through search instead of paying for is money you keep.</p>\n<table class=\"mini\"><thead><tr><th>Term</th><th>Searches / month</th><th>Difficulty</th><th>Google Ads CPC</th></tr></thead><tbody><tr><td>emergency plumber newcastle</td><td>260</td><td>18</td><td>$9.54</td></tr><tr><td>blocked drains newcastle</td><td>170</td><td>8</td><td>$10.69</td></tr><tr><td>24 hour plumber</td><td>590</td><td>11</td><td>$6.45</td></tr><tr><td>burst pipe repair</td><td>320</td><td>5</td><td>$6.91</td></tr><tr><td>gas fitter newcastle</td><td>70</td><td>3</td><td>$9.77</td></tr><tr><td>plumber mayfield</td><td>50</td><td>11</td><td>$12.89</td></tr></tbody></table>\n<p>Difficulty is scored out of 100. Almost everything here sits under 20, which for a local trade is very winnable. Nothing on this list is out of reach.</p>\n<h3 class=\"subhead\"><span class=\"sn\">1.3</span>Where you're completely dark</h3>\n<ul><li>Burst pipe repair \u2014 no AI engine mentions you, and burst pipe repair alone is 320 searches a month</li><li>Hot water installation \u2014 nothing, on any engine</li><li>Suburb-level questions \u2014 you're absent almost everywhere outside the word 'Newcastle'</li><li>Competitors already visible: Newcastle Emergency Plumbing (3 engines, leading with 'arrives in 30 minutes'), Jet Blaster Man, Plumbers Express</li></ul>\n<div class=\"callout\">Newcastle Emergency Plumbing wins on a promise, not on being better plumbers. 'Arrives in 30 minutes' is a specific, checkable claim. That is what the engines and the customers latch onto. We need one of those for you.</div>\n<h3 class=\"subhead\"><span class=\"sn\">1.4</span>The honest part: your suburbs are quiet</h3>\n<p>We checked search volume for every suburb you named. Only Stockton, Mayfield, Merewether and Islington register at all, and even those are small. Adamstown, Adamstown Heights, Fern Bay, Mayfield West and Wickham show no recorded search volume for plumbing terms.</p>\n<p>We're still building those pages, and we want to be straight with you about why. They earn their place by getting you into the Google map pack when someone nearby searches, and by proving to Google and the AI engines that you genuinely service those areas. They are not going to bring traffic on their own. Anyone who tells you otherwise is selling you page count.</p>\n<h3 class=\"subhead\"><span class=\"sn\">1.5</span>The plan, three months</h3>\n<table class=\"mini\"><thead><tr><th>Month</th><th>Pillar</th><th>Why this order</th></tr></thead><tbody><tr><td>September</td><td>Emergency plumbing</td><td>Your first priority and your highest-intent work. It's also where you already have a toehold on Gemini, so we're widening a crack rather than drilling a new one.</td></tr><tr><td>October</td><td>Blocked drains, dig-ups, CCTV</td><td>Where Claude already partly recognises you. Strong commercial value at $10.69 a click and low difficulty.</td></tr><tr><td>November</td><td>Hot water, gas, maintenance</td><td>Currently a complete blank across all five engines, and hot water demand climbs into summer.</td></tr></tbody></table>\n<h3 class=\"subhead\"><span class=\"sn\">1.6</span>What you get each month</h3>\n<ul class=\"spec\"><li>11 pages \u2014 a mix of suburb pages, service pages and articles</li><li>3 Google Business Profile posts</li><li>AI search visibility tracked and reported monthly</li><li>GBP optimisation, citation clean-up, basic link building</li><li>Website audit and the fixes that follow it</li><li>A video walkthrough and a catch-up call</li></ul>\n<h3 class=\"subhead\"><span class=\"sn\">1.7</span>How approval works</h3>\n<p>Two stages, and nothing goes live without you seeing it twice. First you approve the topics on the content calendar \u2014 that's the tick box on the next tab. Then you approve the finished copy before it publishes.</p>\n<div class=\"answer\">You only need to do one thing right now: open the content calendar and tick the items you're happy for us to write. If something looks wrong for your business, leave a note on that row instead and we'll change it.</div>"}, {"key": "audit", "num": "02", "title": "Technical Audit", "short": "Technical Audit", "audience": "both", "enabled": true, "intro": "Site health, what's holding rankings back, and the order we fix it in.", "html": "<h3 class=\"subhead\"><span class=\"sn\">A.1</span>Not started yet</h3>\n<p>The website audit is part of your plan and hasn't been run yet. It's scheduled before September content goes live, because there is no point pointing new pages at a site with technical problems underneath them.</p>\n<p>Once it's done, this tab will list what we found, what we're fixing, what needs a decision from you, and a 90-day action plan in priority order.</p>"}, {"key": "gbp", "num": "03", "title": "GBP Optimisation", "short": "GBP Optimisation", "audience": "both", "enabled": true, "intro": "Your Google Business Profile \u2014 the fastest-moving lever you have.", "html": "<h3 class=\"subhead\"><span class=\"sn\">G.1</span>Why this matters more than your website right now</h3>\n<p>For a 24/7 emergency trade, the map pack is where the phone calls come from. Someone with water coming through the ceiling is not reading a blog. They tap the first profile with reviews and a phone number. Your profile is doing that job today, and it's the quickest thing to improve.</p>\n<h3 class=\"subhead\"><span class=\"sn\">G.2</span>The monthly rhythm</h3>\n<ul class=\"spec\"><li>3 Google Business Profile posts a month, scheduled on the content calendar</li><li>Profile optimisation \u2014 services, service areas, hours, attributes</li><li>Citation building and clean-up so your name, address and phone match everywhere</li><li>Review prompts after completed jobs</li></ul>\n<h3 class=\"subhead\"><span class=\"sn\">G.3</span>Service areas we're targeting</h3>\n<p>Stockton, Fern Bay, Mayfield, Mayfield West, Merewether, Adamstown, Adamstown Heights, Wickham, Islington and Newcastle \u2014 the areas you named on our onboarding call.</p>\n<div class=\"callout\">Stockton is your strongest local signal and your least contested. You're on the right side of the water when most Newcastle plumbers aren't. That's a genuine advantage and we're going to lean on it.</div>"}, {"key": "calendar-seo", "num": "04", "title": "Content Calendar (SEO)", "short": "Content Calendar", "audience": "client", "enabled": true, "intro": "", "html": ""}, {"key": "keywords", "num": "06", "title": "Keywords & AI Search", "short": "Keywords & AI Search", "audience": "client", "enabled": true, "intro": "", "html": ""}, {"key": "briefs", "num": "08", "title": "Monthly Briefs", "short": "Monthly Briefs", "audience": "internal", "enabled": true, "intro": "Writer-ready briefs, one sub-tab per month. This is the source of truth for production.", "remote": true}, {"key": "team-brief", "num": "09", "title": "Team Brief", "short": "Team Brief", "audience": "internal", "enabled": true, "intro": "Read this before you write a single word for Clarkies.", "remote": true}, {"key": "progress", "num": "10", "title": "Progress Tracker", "short": "Progress Tracker", "audience": "internal", "enabled": true, "intro": "", "html": ""}, {"key": "research", "num": "11", "title": "Research", "short": "Research", "audience": "internal", "enabled": true, "intro": "The keyword and visibility data this whole plan is built on.", "remote": true}], "approvalTarget": "calendar-seo"};
 const sb = supabase.createClient(CFG.sbUrl, CFG.sbKey);
 
-let ME = null, ITEMS = [], INTERNAL = {}, STAFF = [], TABDOCS = {}, CLIENT_ID = null;
+let ME = null, ITEMS = [], INTERNAL = {}, STAFF = [], TABDOCS = {},
+    KEYWORDS = [], PROMPTS = [], CLIENT_ID = null;
 
 const $  = id => document.getElementById(id);
 const esc = s => (s ?? '').toString().replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -254,8 +267,10 @@ const INTERNAL_STATUS = [['not_started','Not started'],['started','Started'],['w
                          ['almost_done','Almost done'],['done','Done']];
 const TYPE_BADGE = {blog:'b-blog', location_page:'b-loc', service_page:'b-svc', gbp:'b-gmb',
                     social:'b-soc', linkedin:'b-soc'};
-const TYPE_LABEL = {blog:'Blog', location_page:'Location', service_page:'Service', gbp:'GBP',
-                    social:'Social', linkedin:'LinkedIn'};
+const TYPE_LABEL = {blog:'Blog', location_page:'Location page', service_page:'Service page',
+                    gbp:'GBP post', social:'Social', linkedin:'LinkedIn'};
+const STREAM_ORDER = ['blog','service_page','location_page','gbp','social','linkedin'];
+const PROMPT_LABEL = {dark:'Not showing', partial:'Partial', visible:'Showing'};
 
 const fmtDate = iso => { const [y,m,d]=iso.split('-').map(Number);
   return d+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][m-1]; };
@@ -317,9 +332,13 @@ async function boot(){
 }
 
 async function loadData(){
-  const q = await sb.from('ch_items').select('*')
-    .eq('client_id', CLIENT_ID).order('publish_date', {ascending:true}).order('sort_order');
-  ITEMS = q.data || [];
+  const [q, kw, pr] = await Promise.all([
+    sb.from('ch_items').select('*')
+      .eq('client_id', CLIENT_ID).order('publish_date', {ascending:true}).order('sort_order'),
+    sb.from('ch_keywords').select('*').eq('client_id', CLIENT_ID).order('kw_group').order('sort_order'),
+    sb.from('ch_prompts').select('*').eq('client_id', CLIENT_ID).order('sort_order')
+  ]);
+  ITEMS = q.data || []; KEYWORDS = kw.data || []; PROMPTS = pr.data || [];
   if (q.error) badge('Could not load the calendar.','err');
 
   if (ME.kind === 'internal') {
@@ -369,6 +388,7 @@ function renderPanel(t){
   const el = $('panel-'+t.key);
   if (t.key === 'calendar-seo')    { el.innerHTML = head(t)+calendarMarkup('seo');    wireCalendar(el,'seo');    return; }
   if (t.key === 'calendar-social') { el.innerHTML = head(t)+calendarMarkup('social'); wireCalendar(el,'social'); return; }
+  if (t.key === 'keywords')        { el.innerHTML = head(t)+keywordsMarkup();                                    return; }
   if (t.key === 'progress')        { el.innerHTML = head(t)+progressMarkup();         wireProgress(el);          return; }
 
   let body = (t.remote ? TABDOCS[t.key] : t.html) || '<p class="empty">Nothing here yet.</p>';
@@ -397,31 +417,38 @@ function calendarMarkup(cal){
     const rag = done === mr.length ? 'green' : (waiting ? 'amber' : 'red');
     const ragTxt = done === mr.length ? 'All approved' : (waiting ? waiting+' waiting on you' : 'In production');
 
+    // Grouped by asset type rather than listed by date, so the client can see
+    // all the blogs together, all the service pages together, and so on.
     let body = '';
-    for (const r of mr) {
-      const id = esc(r.id), st = esc(r.client_status), fs = esc(r.funnel_stage || '');
-      const canTick = r.client_status !== 'started';
-      body += '<tr data-id="'+id+'">'
-        + '<td class="date">'+esc(fmtDate(r.publish_date))+'</td>'
-        + '<td><span class="badge '+(TYPE_BADGE[r.stream]||'b-blog')+'">'
-          + esc(TYPE_LABEL[r.stream]||r.stream)+'</span></td>'
-        + '<td class="title">'+esc(r.title)
-          + (fs ? ' <span class="stage '+fs+'">'+fs+'</span>' : '')
-          + '<div><button class="notebtn" type="button" data-note="'+id+'">Notes'
-          + (r.client_notes ? '<span class="notedot"></span>' : '')+'</button></div></td>'
-        + '<td class="kwc">'+esc(r.main_keyword||'—')+'</td>'
-        + '<td class="num">'+volCell(r.search_volume)+'</td>'
-        + '<td class="num">'+kdPill(r.difficulty)+'</td>'
-        + '<td class="note">'+esc(r.secondary_note||'')+'</td>'
-        + '<td><span class="sp '+st+'">'+esc(CLIENT_STATUS[r.client_status]||r.client_status)+'</span></td>'
-        + '<td style="text-align:center"><input class="tick" type="checkbox" data-approve="'+id+'"'
-          + (r.approved?' checked':'') + (canTick?'':' disabled')
-          + ' title="'+(canTick?'Approve this item':'Not ready for approval yet')+'"></td>'
-        + '</tr>'
-        + '<tr class="noterow" id="note-'+id+'" hidden><td colspan="9"><div class="notewrap">'
-          + '<label>Your notes on this item</label>'
-          + '<textarea class="note" data-notefor="'+id+'" placeholder="Anything you want changed before we publish?">'
-          + esc(r.client_notes||'')+'</textarea></div></td></tr>';
+    for (const stream of STREAM_ORDER) {
+      const sr = mr.filter(r => r.stream === stream);
+      if (!sr.length) continue;
+      body += '<tr class="typerow"><td colspan="8">'
+            + '<span class="badge '+(TYPE_BADGE[stream]||'b-blog')+'">'
+            + esc(TYPE_LABEL[stream]||stream)+'</span>'
+            + '<span class="tc">'+sr.length+' '+(sr.length===1?'item':'items')+'</span></td></tr>';
+      for (const r of sr) {
+        const id = esc(r.id), st = esc(r.client_status), fs = esc(r.funnel_stage || '');
+        const canTick = r.client_status !== 'started';
+        body += '<tr data-id="'+id+'">'
+          + '<td class="title">'+esc(r.title)
+            + (fs ? ' <span class="stage '+fs+'">'+fs+'</span>' : '')
+            + '<div><button class="notebtn" type="button" data-note="'+id+'">Notes'
+            + (r.client_notes ? '<span class="notedot"></span>' : '')+'</button></div></td>'
+          + '<td class="kwc">'+esc(r.main_keyword||'—')+'</td>'
+          + '<td class="num">'+volCell(r.search_volume)+'</td>'
+          + '<td class="num">'+kdPill(r.difficulty)+'</td>'
+          + '<td class="note">'+esc(r.secondary_note||'')+'</td>'
+          + '<td><span class="sp '+st+'">'+esc(CLIENT_STATUS[r.client_status]||r.client_status)+'</span></td>'
+          + '<td style="text-align:center"><input class="tick" type="checkbox" data-approve="'+id+'"'
+            + (r.approved?' checked':'') + (canTick?'':' disabled')
+            + ' title="'+(canTick?'Approve this item':'Not ready for approval yet')+'"></td>'
+          + '</tr>'
+          + '<tr class="noterow" id="note-'+id+'" hidden><td colspan="7"><div class="notewrap">'
+            + '<label>Your notes on this item</label>'
+            + '<textarea class="note" data-notefor="'+id+'" placeholder="Anything you want changed before we publish?">'
+            + esc(r.client_notes||'')+'</textarea></div></td></tr>';
+      }
     }
 
     out += '<div class="monthgroup"><div class="mg-head">'
@@ -430,7 +457,7 @@ function calendarMarkup(cal){
          + '<span class="mm">'+done+' / '+mr.length+' approved</span></div>'
          + '<div class="mg-bar"><i style="width:'+pct+'%"></i></div>'
          + '<div class="scroll"><table class="mini caltable"><thead><tr>'
-         + '<th>Date</th><th>Type</th><th>Title</th><th>Primary keyword</th><th>Vol</th><th>KD</th>'
+         + '<th>Title</th><th>Primary keyword</th><th>Vol</th><th>KD</th>'
          + '<th>Secondary / note</th><th>Status</th><th style="text-align:center">Approve</th>'
          + '</tr></thead><tbody>'+body+'</tbody></table></div></div>';
   }
@@ -477,6 +504,85 @@ function refreshPanel(cal){
   open.forEach(id => { const r = $(id); if (r) r.hidden = false; });
 }
 
+/* ---------------- keywords + AI search (client) ---------------- */
+function posCell(p, prev){
+  if (p === null || p === undefined)
+    return '<span class="pos none" title="Not in the top 100">not ranking</span>';
+  const band = p <= 3 ? 'top3' : (p <= 10 ? 'p1' : (p <= 30 ? 'p2' : 'deep'));
+  let move = '';
+  if (prev !== null && prev !== undefined && prev !== p) {
+    const d = prev - p;
+    move = '<span class="mv '+(d>0?'up':'down')+'">'+(d>0?'▲':'▼')+Math.abs(d)+'</span>';
+  }
+  return '<span class="pos '+band+'">'+p+'</span>'+move;
+}
+
+function keywordsMarkup(){
+  let out = '';
+
+  if (KEYWORDS.length) {
+    const ranking = KEYWORDS.filter(k => k.position !== null && k.position !== undefined);
+    const p1 = ranking.filter(k => k.position <= 10).length;
+    const p2 = ranking.filter(k => k.position > 10 && k.position <= 30).length;
+    const totalVol = KEYWORDS.reduce((a,k) => a + (k.volume||0), 0);
+    out += '<div class="statrow">'
+         + '<div class="stat"><div class="big">'+KEYWORDS.length+'</div><div class="lbl">Keywords we are targeting</div></div>'
+         + '<div class="stat"><div class="big">'+totalVol.toLocaleString()+'</div><div class="lbl">Combined monthly searches</div></div>'
+         + '<div class="stat"><div class="big">'+p1+'</div><div class="lbl">Already on page 1</div></div>'
+         + '<div class="stat"><div class="big">'+p2+'</div><div class="lbl">On page 2 or 3, within reach</div></div>'
+         + '</div>';
+
+    out += '<p class="intro">Every keyword below has real, measured search volume and maps to a service '
+         + 'you actually offer. <b>Position</b> is where your site sits in Google right now, checked '
+         + 'against the whole top 100. It updates as we work, so this doubles as your scoreboard.</p>';
+
+    const groups = [...new Set(KEYWORDS.map(k => k.kw_group))];
+    for (const g of groups) {
+      const gk = KEYWORDS.filter(k => k.kw_group === g);
+      const gv = gk.reduce((a,k) => a + (k.volume||0), 0);
+      let rows = '';
+      for (const k of gk) {
+        rows += '<tr><td class="kwc">'+esc(k.keyword)+'</td>'
+              + '<td><span class="badge '+({service:'b-svc',location:'b-loc',blog:'b-blog',brand:'b-power'}[k.kw_type]||'b-svc')+'">'
+                + esc(k.kw_type)+'</span></td>'
+              + '<td class="num">'+volCell(k.volume)+'</td>'
+              + '<td class="num">'+kdPill(k.difficulty)+'</td>'
+              + '<td class="num">'+(k.cpc ? '$'+Number(k.cpc).toFixed(2) : '—')+'</td>'
+              + '<td class="num">'+posCell(k.position, k.prev_position)+'</td></tr>';
+      }
+      out += '<div class="monthgroup"><div class="mg-head">'
+           + '<span class="mt">'+esc(g)+'</span>'
+           + '<span class="mm">'+gk.length+' keywords &middot; '+gv.toLocaleString()+' searches/mo</span></div>'
+           + '<div class="scroll"><table class="mini"><thead><tr>'
+           + '<th>Keyword</th><th>Type</th><th>Searches/mo</th><th>Difficulty</th><th>Ads cost/click</th>'
+           + '<th>Your position</th></tr></thead><tbody>'+rows+'</tbody></table></div></div>';
+    }
+  }
+
+  if (PROMPTS.length) {
+    const visible = PROMPTS.filter(p => p.status !== 'dark').length;
+    out += '<h3 class="subhead"><span class="sn">AI</span>AI search prompts we are going after</h3>'
+         + '<p>Search is moving into ChatGPT, Gemini, Perplexity, Claude and Grok. These are the real '
+         + 'questions people ask about plumbing in your area. We track whether you get named in the answer.</p>'
+         + '<div class="statrow">'
+         + '<div class="stat"><div class="big">'+visible+' / '+PROMPTS.length+'</div><div class="lbl">Prompts you currently appear on</div></div>'
+         + '</div>';
+    let rows = '';
+    for (const p of PROMPTS) {
+      rows += '<tr><td class="asset">'+esc(p.prompt)+'</td>'
+            + '<td>'+esc(p.topic)+'</td>'
+            + '<td><span class="sp '+(p.status==='visible'?'approved':(p.status==='partial'?'for_approval':'started'))+'">'
+              + esc(PROMPT_LABEL[p.status]||p.status)+'</span></td>'
+            + '<td class="note">'+esc(p.engines||'')+'</td></tr>';
+    }
+    out += '<div class="scroll"><table class="mini"><thead><tr>'
+         + '<th>Prompt</th><th>Topic</th><th>Where you stand</th><th>Engines</th>'
+         + '</tr></thead><tbody>'+rows+'</tbody></table></div>';
+  }
+
+  return out || '<p class="empty">No keywords loaded yet.</p>';
+}
+
 /* ---------------- progress (internal) ---------------- */
 function progressMarkup(){
   if (!ITEMS.length) return '<p class="empty">No items scheduled yet.</p>';
@@ -514,6 +620,33 @@ function progressMarkup(){
          + '<div class="scroll"><table class="mini caltable"><thead><tr>'
          + '<th>Date</th><th>Type</th><th>Item</th><th>Assigned to</th><th>Internal status</th>'
          + '<th>Client sees</th><th>Due</th></tr></thead><tbody>'+body+'</tbody></table></div></div>';
+  }
+
+  // AI prompts we are tracking, so the team sees GEO progress next to the content.
+  if (PROMPTS.length) {
+    const visible = PROMPTS.filter(p => p.status === 'visible').length;
+    const partial = PROMPTS.filter(p => p.status === 'partial').length;
+    const pct = Math.round((visible + partial * 0.5) / PROMPTS.length * 100);
+    const rag = pct >= 60 ? 'green' : (pct >= 25 ? 'amber' : 'red');
+    let rows = '';
+    for (const p of PROMPTS) {
+      rows += '<tr><td class="asset">'+esc(p.prompt)+'</td>'
+            + '<td>'+esc(p.topic)+'</td>'
+            + '<td><span class="sp '+(p.status==='visible'?'approved':(p.status==='partial'?'for_approval':'started'))+'">'
+              + esc(PROMPT_LABEL[p.status]||p.status)+'</span></td>'
+            + '<td class="note">'+esc(p.engines||'')+'</td>'
+            + '<td class="note">'+esc(p.notes||'')+'</td>'
+            + '<td class="date">'+esc(p.last_checked||'—')+'</td></tr>';
+    }
+    out += '<div class="monthgroup"><div class="mg-head">'
+         + '<span class="mt">AI search prompts</span>'
+         + '<span class="rag '+rag+'"><i></i>'+visible+' showing, '+partial+' partial, '
+         + (PROMPTS.length-visible-partial)+' dark</span>'
+         + '<span class="mm">'+pct+'% coverage</span></div>'
+         + '<div class="mg-bar"><i style="width:'+pct+'%"></i></div>'
+         + '<div class="scroll"><table class="mini caltable"><thead><tr>'
+         + '<th>Prompt</th><th>Topic</th><th>Status</th><th>Engines</th><th>Note</th><th>Checked</th>'
+         + '</tr></thead><tbody>'+rows+'</tbody></table></div></div>';
   }
   return out;
 }
