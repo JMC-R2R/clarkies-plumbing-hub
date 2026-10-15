@@ -2385,6 +2385,9 @@ let CODEHTML = '', CODEITEM = null;
 function blogStage(r){
   if (r.stream !== 'blog' && r.deliverable !== 'linkedin_article') return null;
   const a = ARTICLES[r.id];
+  // blog_doc_review hubs: a blog delivered as a Google Doc is with the client, not being written
+  if (CFG.blogDocReview && r.stream === 'blog' && r.doc_url && !a && !r.approved)
+    return ME.kind === 'internal' ? { cls:'b-client', label:'With the client' } : null;
   if (ME.kind !== 'internal') {
     if (a) return null;                                    // released: Read & comment shows instead
     if (r.review_on) return { cls:'b-ready', label:'Ready for you on ' + ausDate(r.review_on) };
